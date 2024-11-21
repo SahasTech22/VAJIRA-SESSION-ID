@@ -77,14 +77,31 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "VAJIRA-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝚅𝙰𝙹𝙸𝚁𝙰-𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/VajiraTech/VAJIRA-MD`; 
+                        let desc = `*┏━━━━━━━━━━━━━━*
+*┃SAHAS-MD SESSION IS*
+*┃SUCCESSFULLY*
+*┃CONNECTED ✅🔥*
+*┗━━━━━━━━━━━━━━━*
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❶ || My Web =* https://sahas-tech-web.vercel.app/
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❸ || Owner =* https://wa.me/+94718913389
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❹ || Repo =* https://github.com/SahasTech22/SAHAS-MD
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❺ || You Tube =* https://www.youtube.com/@Sahas_Tech
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ©ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴠᴀᴊɪʀᴀ-ᴍᴅ",
-thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VahMZasD8SE5GRwzqn3Z",
+title: "𝐒𝐀𝐇𝐀𝐒-𝐌𝐃-𝐕2",
+thumbnailUrl: "https://pomf2.lain.la/f/uzu4feg.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
